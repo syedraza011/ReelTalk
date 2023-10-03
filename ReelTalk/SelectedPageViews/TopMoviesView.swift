@@ -13,6 +13,19 @@ struct TopMoviesView: View {
             Text("Select your top 5")
             Text("Movies")
             Text("5/5 Selected")
+            List(mockMovies, id: \.id) { movie in
+                VStack(alignment: .leading) {
+                    Text(movie.title)
+                        .font(.headline)
+                    if let description = movie.description {
+                        Text(description)
+                            .font(.subheadline)
+                    }
+                    Image(systemName: movie.poster)
+                  
+                }
+                .padding()
+            }
         }
     }
 }

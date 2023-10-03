@@ -22,6 +22,7 @@
 		E943B7FE2ACBA86A00E588CA /* SelectedMoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E943B7FD2ACBA86A00E588CA /* SelectedMoviesView.swift */; };
 		E943B8022ACBA9A700E588CA /* TopTvShowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E943B8012ACBA9A700E588CA /* TopTvShowsView.swift */; };
 		E943B8042ACBAA7000E588CA /* TopMoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E943B8032ACBAA7000E588CA /* TopMoviesView.swift */; };
+		E943B8062ACBAFAF00E588CA /* MoviesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E943B8052ACBAFAF00E588CA /* MoviesData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		E943B7FD2ACBA86A00E588CA /* SelectedMoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedMoviesView.swift; sourceTree = "<group>"; };
 		E943B8012ACBA9A700E588CA /* TopTvShowsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTvShowsView.swift; sourceTree = "<group>"; };
 		E943B8032ACBAA7000E588CA /* TopMoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviesView.swift; sourceTree = "<group>"; };
+		E943B8052ACBAFAF00E588CA /* MoviesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				E943B7F12ACB96BD00E588CA /* PushNotificationView.swift */,
 				E943B7CB2ACB959D00E588CA /* Assets.xcassets */,
 				E943B7CD2ACB959D00E588CA /* Preview Content */,
+				E943B8052ACBAFAF00E588CA /* MoviesData.swift */,
 			);
 			path = ReelTalk;
 			sourceTree = "<group>";
@@ -255,6 +258,9 @@
 				Base,
 			);
 			mainGroup = E943B7BB2ACB959C00E588CA;
+			packageReferences = (
+				E943B8072ACBB82800E588CA /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = E943B7C52ACB959C00E588CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -303,6 +309,7 @@
 				E943B7CA2ACB959C00E588CA /* ContentView.swift in Sources */,
 				E943B7F62ACB973B00E588CA /* SplashView.swift in Sources */,
 				E943B8022ACBA9A700E588CA /* TopTvShowsView.swift in Sources */,
+				E943B8062ACBAFAF00E588CA /* MoviesData.swift in Sources */,
 				E943B7F22ACB96BD00E588CA /* PushNotificationView.swift in Sources */,
 				E943B7FE2ACBA86A00E588CA /* SelectedMoviesView.swift in Sources */,
 				E943B8042ACBAA7000E588CA /* TopMoviesView.swift in Sources */,
@@ -636,6 +643,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E943B8072ACBB82800E588CA /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = E943B7BC2ACB959C00E588CA /* Project object */;
 }
