@@ -24,7 +24,7 @@ struct TVShow: Hashable{
 }
 
 let mockMovies: [Movie] = [
-    Movie(id: "tt0120338", title: "Titanic", poster:"https://www.movieposterdb.com/beauty-and-the-beast-i9173998/ac06ab34#&gid=1&pid=1"),
+    Movie(id: "tt0120338", title: "Titanic", poster:"https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg"),
     Movie(id: "tt0120339",title: "Titanic", description: "Description for Movie 1", poster:"https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg"),
     Movie(id: "tt01203340",title: "Titanic", description: "Description for Movie 1", poster:"https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg"),
     Movie(id: "tt01203381", title: "Titanic",  poster:"https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg"),
