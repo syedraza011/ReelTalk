@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E943B7C82ACB959C00E588CA /* ReelTalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E943B7C72ACB959C00E588CA /* ReelTalkApp.swift */; };
+		E943B7CA2ACB959C00E588CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E943B7C92ACB959C00E588CA /* ContentView.swift */; };
+		E943B7CC2ACB959D00E588CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E943B7CB2ACB959D00E588CA /* Assets.xcassets */; };
+		E943B7CF2ACB959D00E588CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E943B7CE2ACB959D00E588CA /* Preview Assets.xcassets */; };
+		E943B7D92ACB959D00E588CA /* ReelTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E943B7D82ACB959D00E588CA /* ReelTalkTests.swift */; };
+		E943B7E32ACB959D00E588CA /* ReelTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E943B7E22ACB959D00E588CA /* ReelTalkUITests.swift */; };
+		E943B7E52ACB959D00E588CA /* ReelTalkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E943B7E42ACB959D00E588CA /* ReelTalkUITestsLaunchTests.swift */; };
+		E943B7F22ACB96BD00E588CA /* PushNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E943B7F12ACB96BD00E588CA /* PushNotificationView.swift */; };
+		E943B7F42ACB970400E588CA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E943B7F32ACB970400E588CA /* ProfileView.swift */; };
+		E943B7F62ACB973B00E588CA /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E943B7F52ACB973B00E588CA /* SplashView.swift */; };
+		E943B7F82ACB995600E588CA /* ColorChangingLinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E943B7F72ACB995600E588CA /* ColorChangingLinesView.swift */; };
+		E943B7FA2ACB9CC800E588CA /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E943B7F92ACB9CC800E588CA /* SearchBar.swift */; };
+		E943B7FE2ACBA86A00E588CA /* SelectedMoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E943B7FD2ACBA86A00E588CA /* SelectedMoviesView.swift */; };
+		E943B8022ACBA9A700E588CA /* TopTvShowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E943B8012ACBA9A700E588CA /* TopTvShowsView.swift */; };
+		E943B8042ACBAA7000E588CA /* TopMoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E943B8032ACBAA7000E588CA /* TopMoviesView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E943B7D52ACB959D00E588CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E943B7BC2ACB959C00E588CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E943B7C32ACB959C00E588CA;
+			remoteInfo = ReelTalk;
+		};
+		E943B7DF2ACB959D00E588CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E943B7BC2ACB959C00E588CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E943B7C32ACB959C00E588CA;
+			remoteInfo = ReelTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E943B7C42ACB959C00E588CA /* ReelTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReelTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E943B7C72ACB959C00E588CA /* ReelTalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelTalkApp.swift; sourceTree = "<group>"; };
+		E943B7C92ACB959C00E588CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E943B7CB2ACB959D00E588CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E943B7CE2ACB959D00E588CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E943B7D42ACB959D00E588CA /* ReelTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReelTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E943B7D82ACB959D00E588CA /* ReelTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelTalkTests.swift; sourceTree = "<group>"; };
+		E943B7DE2ACB959D00E588CA /* ReelTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReelTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E943B7E22ACB959D00E588CA /* ReelTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelTalkUITests.swift; sourceTree = "<group>"; };
+		E943B7E42ACB959D00E588CA /* ReelTalkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelTalkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E943B7F12ACB96BD00E588CA /* PushNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationView.swift; sourceTree = "<group>"; };
+		E943B7F32ACB970400E588CA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		E943B7F52ACB973B00E588CA /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		E943B7F72ACB995600E588CA /* ColorChangingLinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChangingLinesView.swift; sourceTree = "<group>"; };
+		E943B7F92ACB9CC800E588CA /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		E943B7FD2ACBA86A00E588CA /* SelectedMoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedMoviesView.swift; sourceTree = "<group>"; };
+		E943B8012ACBA9A700E588CA /* TopTvShowsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTvShowsView.swift; sourceTree = "<group>"; };
+		E943B8032ACBAA7000E588CA /* TopMoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviesView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E943B7C12ACB959C00E588CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E943B7D12ACB959D00E588CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E943B7DB2ACB959D00E588CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E943B7BB2ACB959C00E588CA = {
+			isa = PBXGroup;
+			children = (
+				E943B7C62ACB959C00E588CA /* ReelTalk */,
+				E943B7D72ACB959D00E588CA /* ReelTalkTests */,
+				E943B7E12ACB959D00E588CA /* ReelTalkUITests */,
+				E943B7C52ACB959C00E588CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E943B7C52ACB959C00E588CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E943B7C42ACB959C00E588CA /* ReelTalk.app */,
+				E943B7D42ACB959D00E588CA /* ReelTalkTests.xctest */,
+				E943B7DE2ACB959D00E588CA /* ReelTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E943B7C62ACB959C00E588CA /* ReelTalk */ = {
+			isa = PBXGroup;
+			children = (
+				E943B8002ACBA91C00E588CA /* Views */,
+				E943B7FF2ACBA8D200E588CA /* SelectedPageViews */,
+				E943B7C72ACB959C00E588CA /* ReelTalkApp.swift */,
+				E943B7F12ACB96BD00E588CA /* PushNotificationView.swift */,
+				E943B7CB2ACB959D00E588CA /* Assets.xcassets */,
+				E943B7CD2ACB959D00E588CA /* Preview Content */,
+			);
+			path = ReelTalk;
+			sourceTree = "<group>";
+		};
+		E943B7CD2ACB959D00E588CA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E943B7CE2ACB959D00E588CA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E943B7D72ACB959D00E588CA /* ReelTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				E943B7D82ACB959D00E588CA /* ReelTalkTests.swift */,
+			);
+			path = ReelTalkTests;
+			sourceTree = "<group>";
+		};
+		E943B7E12ACB959D00E588CA /* ReelTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E943B7E22ACB959D00E588CA /* ReelTalkUITests.swift */,
+				E943B7E42ACB959D00E588CA /* ReelTalkUITestsLaunchTests.swift */,
+			);
+			path = ReelTalkUITests;
+			sourceTree = "<group>";
+		};
+		E943B7FF2ACBA8D200E588CA /* SelectedPageViews */ = {
+			isa = PBXGroup;
+			children = (
+				E943B7FD2ACBA86A00E588CA /* SelectedMoviesView.swift */,
+				E943B8012ACBA9A700E588CA /* TopTvShowsView.swift */,
+				E943B8032ACBAA7000E588CA /* TopMoviesView.swift */,
+			);
+			path = SelectedPageViews;
+			sourceTree = "<group>";
+		};
+		E943B8002ACBA91C00E588CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E943B7C92ACB959C00E588CA /* ContentView.swift */,
+				E943B7F52ACB973B00E588CA /* SplashView.swift */,
+				E943B7F32ACB970400E588CA /* ProfileView.swift */,
+				E943B7F92ACB9CC800E588CA /* SearchBar.swift */,
+				E943B7F72ACB995600E588CA /* ColorChangingLinesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E943B7C32ACB959C00E588CA /* ReelTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E943B7E82ACB959D00E588CA /* Build configuration list for PBXNativeTarget "ReelTalk" */;
+			buildPhases = (
+				E943B7C02ACB959C00E588CA /* Sources */,
+				E943B7C12ACB959C00E588CA /* Frameworks */,
+				E943B7C22ACB959C00E588CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReelTalk;
+			productName = ReelTalk;
+			productReference = E943B7C42ACB959C00E588CA /* ReelTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E943B7D32ACB959D00E588CA /* ReelTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E943B7EB2ACB959D00E588CA /* Build configuration list for PBXNativeTarget "ReelTalkTests" */;
+			buildPhases = (
+				E943B7D02ACB959D00E588CA /* Sources */,
+				E943B7D12ACB959D00E588CA /* Frameworks */,
+				E943B7D22ACB959D00E588CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E943B7D62ACB959D00E588CA /* PBXTargetDependency */,
+			);
+			name = ReelTalkTests;
+			productName = ReelTalkTests;
+			productReference = E943B7D42ACB959D00E588CA /* ReelTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E943B7DD2ACB959D00E588CA /* ReelTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E943B7EE2ACB959D00E588CA /* Build configuration list for PBXNativeTarget "ReelTalkUITests" */;
+			buildPhases = (
+				E943B7DA2ACB959D00E588CA /* Sources */,
+				E943B7DB2ACB959D00E588CA /* Frameworks */,
+				E943B7DC2ACB959D00E588CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E943B7E02ACB959D00E588CA /* PBXTargetDependency */,
+			);
+			name = ReelTalkUITests;
+			productName = ReelTalkUITests;
+			productReference = E943B7DE2ACB959D00E588CA /* ReelTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E943B7BC2ACB959C00E588CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E943B7C32ACB959C00E588CA = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					E943B7D32ACB959D00E588CA = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = E943B7C32ACB959C00E588CA;
+					};
+					E943B7DD2ACB959D00E588CA = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = E943B7C32ACB959C00E588CA;
+					};
+				};
+			};
+			buildConfigurationList = E943B7BF2ACB959C00E588CA /* Build configuration list for PBXProject "ReelTalk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E943B7BB2ACB959C00E588CA;
+			productRefGroup = E943B7C52ACB959C00E588CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E943B7C32ACB959C00E588CA /* ReelTalk */,
+				E943B7D32ACB959D00E588CA /* ReelTalkTests */,
+				E943B7DD2ACB959D00E588CA /* ReelTalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E943B7C22ACB959C00E588CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E943B7CF2ACB959D00E588CA /* Preview Assets.xcassets in Resources */,
+				E943B7CC2ACB959D00E588CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E943B7D22ACB959D00E588CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E943B7DC2ACB959D00E588CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E943B7C02ACB959C00E588CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E943B7FA2ACB9CC800E588CA /* SearchBar.swift in Sources */,
+				E943B7F42ACB970400E588CA /* ProfileView.swift in Sources */,
+				E943B7F82ACB995600E588CA /* ColorChangingLinesView.swift in Sources */,
+				E943B7CA2ACB959C00E588CA /* ContentView.swift in Sources */,
+				E943B7F62ACB973B00E588CA /* SplashView.swift in Sources */,
+				E943B8022ACBA9A700E588CA /* TopTvShowsView.swift in Sources */,
+				E943B7F22ACB96BD00E588CA /* PushNotificationView.swift in Sources */,
+				E943B7FE2ACBA86A00E588CA /* SelectedMoviesView.swift in Sources */,
+				E943B8042ACBAA7000E588CA /* TopMoviesView.swift in Sources */,
+				E943B7C82ACB959C00E588CA /* ReelTalkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E943B7D02ACB959D00E588CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E943B7D92ACB959D00E588CA /* ReelTalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E943B7DA2ACB959D00E588CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E943B7E52ACB959D00E588CA /* ReelTalkUITestsLaunchTests.swift in Sources */,
+				E943B7E32ACB959D00E588CA /* ReelTalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E943B7D62ACB959D00E588CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E943B7C32ACB959C00E588CA /* ReelTalk */;
+			targetProxy = E943B7D52ACB959D00E588CA /* PBXContainerItemProxy */;
+		};
+		E943B7E02ACB959D00E588CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E943B7C32ACB959C00E588CA /* ReelTalk */;
+			targetProxy = E943B7DF2ACB959D00E588CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E943B7E62ACB959D00E588CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E943B7E72ACB959D00E588CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E943B7E92ACB959D00E588CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ReelTalk/Preview Content\"";
+				DEVELOPMENT_TEAM = G9Z86K3593;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Syed-Raza.ReelTalk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E943B7EA2ACB959D00E588CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ReelTalk/Preview Content\"";
+				DEVELOPMENT_TEAM = G9Z86K3593;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Syed-Raza.ReelTalk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E943B7EC2ACB959D00E588CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9Z86K3593;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Syed-Raza.ReelTalkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReelTalk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReelTalk";
+			};
+			name = Debug;
+		};
+		E943B7ED2ACB959D00E588CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9Z86K3593;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Syed-Raza.ReelTalkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReelTalk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReelTalk";
+			};
+			name = Release;
+		};
+		E943B7EF2ACB959D00E588CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9Z86K3593;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Syed-Raza.ReelTalkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReelTalk;
+			};
+			name = Debug;
+		};
+		E943B7F02ACB959D00E588CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9Z86K3593;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Syed-Raza.ReelTalkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReelTalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E943B7BF2ACB959C00E588CA /* Build configuration list for PBXProject "ReelTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E943B7E62ACB959D00E588CA /* Debug */,
+				E943B7E72ACB959D00E588CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E943B7E82ACB959D00E588CA /* Build configuration list for PBXNativeTarget "ReelTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E943B7E92ACB959D00E588CA /* Debug */,
+				E943B7EA2ACB959D00E588CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E943B7EB2ACB959D00E588CA /* Build configuration list for PBXNativeTarget "ReelTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E943B7EC2ACB959D00E588CA /* Debug */,
+				E943B7ED2ACB959D00E588CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E943B7EE2ACB959D00E588CA /* Build configuration list for PBXNativeTarget "ReelTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E943B7EF2ACB959D00E588CA /* Debug */,
+				E943B7F02ACB959D00E588CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E943B7BC2ACB959C00E588CA /* Project object */;
+}
